@@ -12,7 +12,7 @@ if (!empty($_GET['id'])) {
 
         echo "<script>
             window.alert('Excluido com sucesso!'); 
-            window.location.href = '/Conversor/index.php';
+            window.location.href = '/CrudEmPHP/index.php';
             </script>";
     } catch (PDOException $e) {
         echo "Error: " . $e->getMessage();

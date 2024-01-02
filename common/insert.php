@@ -18,6 +18,6 @@ if (isset($_POST)) {
 
     echo "<script>
     window.alert('Cadastrado com sucesso!'); 
-    window.location.href = '/Conversor/index.php';
+    window.location.href = '/CrudEmPHP/index.php';
     </script>";
 }
